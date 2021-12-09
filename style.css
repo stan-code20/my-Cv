@@ -1,0 +1,34 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+h1{ font-size:30px;
+  text-transform:uppercase;
+  letter-spacing:0.4em;
+  text-align:center;
+}
+.bio{ background-color:#ddd;
+  max-width:500px;
+  padding:1em 2em 2em 6em;
+  margin:0 auto;
+  cursor:pointer;
+}
+h3{ color:blue;
+  transition:all 0.3s ease-in-out;
+}
+h3:hover{ color:red;
+}
+p{ line-height:1.6;
+}
+img{ max-width:200px;
+  margin-top:1.5em;
+  border-radius:50%;
+}
+form{
+  display:block;
+  justify-content:center;
+}
+form input{
+  padding:2em;
+}
